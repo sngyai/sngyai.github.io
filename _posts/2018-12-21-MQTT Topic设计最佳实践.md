@@ -6,7 +6,7 @@ categories: MQTT
 header:
   overlay_image: /assets/images/IMGP8176.jpg
 excerpt: >
-     
+  MQTT Topics & Best Practices
 tags: 
   - MQTT
 ---
