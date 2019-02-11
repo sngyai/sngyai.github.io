@@ -1,3 +1,16 @@
+---
+layout: single
+title:  "Common Test"
+date:   2019-01-25 10:22:24 +0800
+categories: TCP/IP
+header:
+  overlay_image: /assets/images/IMGP8176.jpg
+excerpt: >
+  Tsung插件开发
+tags: 
+  - Tsung
+  - Erlang
+---
 # 简介
 Common Test 是一款用于自动化测试的软件，它适用于：
 
