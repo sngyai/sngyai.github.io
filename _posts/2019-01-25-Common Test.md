@@ -6,7 +6,7 @@ categories: TCP/IP
 header:
   overlay_image: /assets/images/IMGP8176.jpg
 excerpt: >
-  Tsung插件开发
+  自动化测试框架
 tags: 
   - Tsung
   - Erlang
