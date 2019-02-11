@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title:  "Common Test"
 date:   2019-01-25 10:22:24 +0800
 categories: TCP/IP
