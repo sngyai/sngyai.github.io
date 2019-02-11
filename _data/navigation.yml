@@ -1,0 +1,12 @@
+# Site navigation links
+main:
+  - title: 所有文章
+    url: /posts/
+  - title: 归档
+    url: /archives/
+  - title: 标签
+    url: /tags/
+  - title: 类别
+    url: /categories/
+  - title: "外部链接"
+    url: https://google.com

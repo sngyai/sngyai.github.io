@@ -1,0 +1,92 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title:            柳石西
+locale:           zh-CN
+url:              http://blog.sngyai.com #http://localhost:4000 
+
+header:
+  image: /assets/images/thailand.jpg
+  image_description: "巴戎寺"
+
+author:
+  name     : "柳石西"
+  email: progyang@gmail.com
+  avatar   : "/assets/images/xiaoxin.jpg"
+  bio      : "Erlang程序员，喜欢玩游戏，游泳，听歌，偶尔拍点照片。"
+  location : "中国北京" 
+  github   : sngyai
+  instagram: sngyai
+
+logo: "/assets/images/xiaoxin.jpg"
+
+permalink:   /:categories/:title/
+
+search : true
+
+# Reading Files
+include:
+  - _pages
+  - posts
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sngyai"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/sngyai"
+
+# breadcrumbs: true
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      comments: true
+      share: true
+      related: true
+
+
+# Build settings
+markdown: kramdown
+toc_levels: 1..2
+
+remote_theme: "mmistakes/minimal-mistakes@4.15.1"
+minimal_mistakes_skin: "dark"
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+  
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
