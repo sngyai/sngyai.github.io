@@ -5,9 +5,10 @@ date:   2018-12-21 18:30:18 +0800
 categories: MQTT
 header:
   overlay_image: /assets/images/IMGP8176.jpg
+excerpt: >
+     
 tags: 
   - MQTT
-  
 ---
 # 前言
 MQTT broker使用Topic来决定哪个Client收到哪条消息，值得注意的是SYS-topics，它是一个特殊的Topic，用于展示broker的状态信息。
