@@ -1,7 +1,7 @@
 ---
 layout: splash
-title:  "MQTT保留消息"
-date:   2019-02-12 11:17:44 +0800
+title:  "MQTT v5共享订阅（Shared Subscriptions）"
+date:   2019-04-18 11:17:44 +0800
 categories: MQTT
 header:
   overlay_image: /assets/images/IMGP8176.jpg
